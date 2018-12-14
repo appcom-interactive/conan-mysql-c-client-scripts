@@ -2,7 +2,7 @@ from conans import ConanFile, CMake, tools
 import os
 
 class ZlibConan(ConanFile):
-    name = "MySQLClient"
+    name = "mysql-c-client"
     version = "6.1.9"
     author = "Ralph-Gordon Paul (gordon@rgpaul.com)"
     settings = "os", "compiler", "build_type", "arch"

@@ -10,7 +10,7 @@ This repository is licensed under the [MIT License](LICENSE).
 
 To create a package for macOS you can run the conan command like this:
 
-`conan create . MySQLClient/6.1.9@rgpaul/stable -s os=Macos -s os.version=10.14 -s arch=x86_64 -s build_type=Release -o shared=False`
+`conan create . mysql-c-client/6.1.9@rgpaul/stable -s os=Macos -s os.version=10.14 -s arch=x86_64 -s build_type=Release -o shared=False`
 
 ### Requirements
 
