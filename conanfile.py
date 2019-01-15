@@ -4,12 +4,12 @@ import os
 class ZlibConan(ConanFile):
     name = "mysql-c-client"
     version = "6.1.9"
-    author = "Ralph-Gordon Paul (gordon@rgpaul.com)"
+    author = "Ralph-Gordon Paul (g.paul@appcom-interactive.de)"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False], "android_ndk": "ANY", "android_stl_type":["c++_static", "c++_shared"]}
     default_options = "shared=False", "android_ndk=None", "android_stl_type=c++_static"
     description = "A MySQL-Client library for C development."
-    url = "https://github.com/Manromen/conan-mysql-c-client-scripts"
+    url = "https://github.com/appcom-interactive/conan-mysql-c-client-scripts"
     license = "GPL-2.0-only"
     exports_sources = "cmake-modules/*"
 
